@@ -1,0 +1,185 @@
+html{
+  font-size:62.5%;
+}
+
+header > *{
+  float:left;
+  width:33.3333%;
+ 
+}
+main{
+  clear: both;
+}
+header > nav > ul li{
+  display:inline;
+  margin-right:8%;
+}
+header > nav > ul li a,a{
+  text-decoration:none;
+  font-size: 2rem;
+}
+header > nav + img + a{
+  float:right;
+  width:20%;
+}
+header > nav +img{
+  margin:0 auto;
+}
+main{
+  background-image:url(/Images/Uo0Ji0P.jpg);
+  background-size:cover;
+  height:20vh;
+  text-align:center;
+  padding-top:10vh;
+  
+}
+main > h1{
+  color:white;
+  font-weight:900;
+  font-size:6rem;
+}
+main p{
+  color:white;
+  font-weight: bold;
+  line-height:4rem;
+  font-size:2.5rem;
+}
+main a{
+  color:white;
+  font-size:3rem;
+  text-decoration: underline;
+  padding:4%;
+}
+main + section{
+  text-align:center;
+  margin:10% 0;
+}
+main + section > h1{
+  font-size:5rem;
+}
+main + section p{
+  font-size:2.5rem;
+  line-height:180%;
+}
+
+section.container section{
+  float:left;
+  width:40%;
+  margin-bottom:6%;
+  
+}
+section.container img{
+  width:100%;
+}
+section.container + section{
+  clear:both;
+}
+.imageResized{
+  width:70%;
+  height:217px;
+  
+}
+section.container > section + section,section.container > section{
+  margin-left:8%;
+}
+section.container section h2{
+  font-size:4rem;
+  text-transform: uppercase;
+}
+section.container section p{
+  font-size:2.5rem;
+}
+section.container section a{
+  border:2px solid slategray;
+  color:black;
+  text-transform: uppercase;
+  padding:5% 10%;
+  display:block;
+  width:30%;
+  border-radius:2px;
+  margin:3% auto;
+  text-align:center;
+}
+section.container + section{
+  background:gray !important;
+  color:white;
+  height:25vh;
+  text-align:center;
+  padding-top:10vh;
+}
+section.container + section h2{
+  font-size:5rem;
+  text-transform: uppercase;
+  
+}
+section.container + section p{
+  font-size:3rem;
+  line-height:50px;
+  font-weight:400;
+}
+section.container + section a{
+  display:block;
+  margin:3% auto;
+  color:black;
+  font-size:4rem;
+  text-transform: uppercase;
+  border:1px solid black;
+  width:30%;
+  padding:2% 4%;
+}
+
+section.socialMedia section{
+  float:left;
+  width:50%;
+  margin:5% 0;
+}
+
+section.socialMedia section ul{
+  list-style:none;
+}
+section.socialMedia section ul li{
+  display:inline;
+  margin-right:3%;
+}
+section.socialMedia section ul li a{
+    font-size:4rem;
+}
+section.socialMedia section dt{
+  font-size:3rem;
+  text-transform: uppercase;
+  padding:2% 0;
+}
+section.socialMedia section dd{
+  display: inline;
+  font-size:2.5rem;
+  font-weight:700;
+ 
+}
+section.martialArtsRight{
+  float: right;
+  margin-right:0;
+}
+section.martialArtsRight h3,address{
+  font-size:3rem;
+}
+footer{
+  clear:both;
+  color:white;
+  padding:2% 4%;
+  background: lightslategray;
+  border-radius:4px;
+  height:100px;
+}
+
+footer >  p{
+  font-size:2rem;
+}
+.logoSpace{
+  margin-left:5%;
+  float:right;
+  width:15%;
+}
+.footerParagraph{
+  float:left;
+  width:80%;
+}
